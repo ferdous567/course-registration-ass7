@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "course_name": "Introduction to C Programming",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "credits": 3,
+        "cover_img": "https://e1.pxfuel.com/desktop-wallpaper/62/435/desktop-wallpaper-c-in-embedded-systems-programming-c-programming-language-thumbnail.jpg"
+        
+      },
+      {
+        "id": 2,
+        "course_name": "Introduction to Algorithms",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "credits": 2,
+        "cover_img": "https://e1.pxfuel.com/desktop-wallpaper/504/9/desktop-wallpaper-wg-algorithm.jpg"
+        
+      },
+      {
+        "id": 3,
+        "course_name": "Introduction to C++ for DSA",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "credits": 5,
+        "cover_img": "https://e1.pxfuel.com/desktop-wallpaper/575/486/desktop-wallpaper-c-programming-language-language.jpg"
+        
+      },
+      {
+        "id": 4,
+        "course_name": "Basic Data Structures",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "credits": 10,
+        "cover_img": "https://e1.pxfuel.com/desktop-wallpaper/20/702/desktop-wallpaper-algorithm-posted-by-ethan-anderson.jpg"
+        
+      },
+      {
+        "id": 5,
+        "course_name": "Introduction to OOP Python",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 18000,
+        "credits": 6,
+        "cover_img": "https://e0.pxfuel.com/wallpapers/110/851/desktop-wallpaper-python-language-python-programming-language.jpg"
+        
+      },
+      {
+        "id": 6,
+        "course_name": "Software Engineering",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 20000,
+        "credits": 8,
+        "cover_img": "https://e0.pxfuel.com/wallpapers/855/1003/desktop-wallpaper-software-engineer-system-engineer-thumbnail.jpg"
+        
+      },
+      {
+        "id": 7,
+        "course_name": "AWS, Cloud Computing",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "credits": 5,
+        "cover_img": "https://e0.pxfuel.com/wallpapers/209/580/desktop-wallpaper-amazon-web-service-academy-cloud-computing-additional-skill-acquisition-programme-kerala-aws-cloud-thumbnail.jpg"
+        
+      },
+      {
+        "id": 8,
+        "course_name": "Database (MySQL)",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 30000,
+        "credits": 9,
+        "cover_img": "https://e0.pxfuel.com/wallpapers/106/484/desktop-wallpaper-anwesh-with-the-power-of-truth-i-while-living-have-conquered-mysql-thumbnail.jpg"
+        
+      },
+      {
+        "id": 9,
+        "course_name": "Problem-Solving Part",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "credits": 2,
+        "cover_img": "https://img.freepik.com/free-vector/problem-solving-labyrinth-concept-illustration_114360-2041.jpg?size=626&ext=jpg"
+        
+      }
+]
