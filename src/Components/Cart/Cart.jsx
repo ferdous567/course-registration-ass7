@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import Singlecart from '../Singlecart/Singlecart';
 
-const Cart = ({selectCart}) => {
+const Cart = ({selectCart, remaining, totalCost}) => {
     
     return (
-        <div className="w-1/4 bg-gray-100 rounded-xl h-72 mt-20 mr-5 p-5">
-            <h3 className="text-blue-600 font-semibold border-b-2">Credit Hour Remaining 7 hr</h3>
-        <div className='border-b-2 space-y-1 mt-2'>
+        <div className="w-1/4 bg-gray-100 rounded-xl h-full mt-20 mr-5 p-5">
+            <h3 className="text-blue-600 font-semibold border-b-2">
+                Credit Hour Remaining {remaining}hr</h3>
+        <div className='border-b-2 space-y-1 mt-2 p-2'>
         <h2 className="text-2xl font-bold ">Course Name : {selectCart.length}</h2>
         {
             selectCart.map(singlecart => <Singlecart key={singlecart.id} 
@@ -14,7 +15,8 @@ const Cart = ({selectCart}) => {
          }
          
         </div>
-        <h2 className="text-lg font-normal">Total Credit Hour : </h2>
+        <h2 className="text-lg font-normal mt-4 border-b-2 p-2">Total Credit Hour : {totalCost}hr</h2>
+        <h2 className="text-lg font-normal mt-4 ">Total Price : {}</h2>
         </div>
     );
 };
@@ -22,6 +24,8 @@ const Cart = ({selectCart}) => {
 
 Cart.propTypes = {
     
-    selectCart:PropTypes.array
+    selectCart:PropTypes.array,
+    remaining:PropTypes.number,
+    totalCost:PropTypes.number,
 }
 export default Cart;

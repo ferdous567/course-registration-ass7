@@ -6,7 +6,7 @@ const Singlecart = ({singlecart}) => {
        
 
         <div>
-                <p>{course_name}</p>
+               <li> {course_name}</li>
             
         </div>
     );
