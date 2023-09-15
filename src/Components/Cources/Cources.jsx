@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
+import PropTypes from 'prop-types';
 
-const Cources = () => {
+const Cources = ({handleSelectButton}) => {
 
     const [cources, setCources] = useState([]);
 
@@ -19,6 +20,7 @@ const Cources = () => {
            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {
                 cources.map(course => <Course key={course.id} 
+                    handleSelectButton ={handleSelectButton}
                 course ={course}></Course>)
             }
             </div>
@@ -26,6 +28,9 @@ const Cources = () => {
     );
 };
 
-
+Cources.propTypes = {
+    
+    handleSelectButton:PropTypes.func
+}
 
 export default Cources;
