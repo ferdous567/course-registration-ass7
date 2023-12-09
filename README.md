@@ -1,6 +1,6 @@
 
 
-## Question-1: Add 3 features in this projects...
+## Features in this projects...
 
 ### 1. Use Tailwind css design in this projects and makes responsive to it by tailwind.
 
@@ -9,9 +9,9 @@
 ### 3. Calculation to all selected courses are there credit total, remaining hours, and added course name etc.
 
 
-## Question-2: How  managed the state in this assignment project?
+## How  managed the state in this assignment project?
 
-Ans: This assignment has been done on these 4 useStates also with a useEffect.Out of which 3 are used in app.jsx and rest are used to fetch data in courses.jsx . Out of the remaining 3 states are there 1 is used for SelectCart, 2nd for Totalcast and the remaining 1 is used for Remaining calculations.
+ This assignment has been done on these 4 useStates also with a useEffect.Out of which 3 are used in app.jsx and rest are used to fetch data in courses.jsx . Out of the remaining 3 states are there 1 is used for SelectCart, 2nd for Totalcast and the remaining 1 is used for Remaining calculations.
 
 Now i described how to manage it in this projects-
 
